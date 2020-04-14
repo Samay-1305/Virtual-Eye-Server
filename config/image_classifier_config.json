@@ -1,0 +1,15 @@
+{
+    "faceClassifier": {
+        "protoPath": "dataset_files//face_classifier//openface//deploy.prototxt",
+        "modelPath": "dataset_files//face_classifier//openface//res_ssd_300x300.caffemodel",
+        "embedPath": "dataset_files//face_classifier//openface//openface_nn4.small2.v1.t7",
+        "recogPath": "dataset_files//face_classifier//openface//recognizer.pickle",
+        "encoderPath": "dataset_files//face_classifier//openface//encoder.pickle",
+        "outputPath": "dataset_files//face_classifier//openface//embeddings.pickle"
+    },
+    "objectClassifier": {
+        "configPath":"dataset_files//object_classifier//yolov3//classifier.cfg",
+        "labelsPath": "dataset_files//object_classifier//yolov3//classifier.names",
+        "weightsPath": "dataset_files//object_classifier//yolov3//classifier.weights"
+    }
+}

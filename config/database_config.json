@@ -1,0 +1,24 @@
+{
+    "file_path": "storage//database//sqlite.db",
+    "tables": {
+        "clients": [
+            [
+                "client_id",
+                "varchar",
+                "primary key"
+            ],
+            [
+                "client_name",
+                "varchar(32)"
+            ],
+            [
+                "client_secret",
+                "varchar(64)"
+            ],
+            [
+                "client_history",
+                "varchar"
+            ]
+        ]
+    }
+}
